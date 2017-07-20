@@ -1,0 +1,63 @@
+body {
+  background-image: url("../images/nba2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: gray;
+}
+
+button {
+  width: 35%;
+  height: 40px;
+  margin: 0px;
+  /*float: left;*/
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+.header h1 {
+
+  margin-top: 0px;
+  color: #3E3D3D;
+  size: 30px;
+}
+
+button.answerchoice {
+  display: none;
+}
+
+button:hover {
+  background-color: #868991;
+  color: white;
+}
+
+.timer div {
+
+  background-color: white;
+  opacity: .8;
+
+}
+
+.answers div {
+  background-color: white;
+  opacity: .8;
+  align-content: center;
+  text-align: center;
+  
+}
+
+img {
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  
+  align-content: center;
+}
+
+h1, h2, h3, .question {
+  text-align: center;
+}
